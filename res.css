@@ -11,6 +11,27 @@ body{font-family: Arial, Helvetica, sans-serif;}
     color: white;
 }
 
+.introimg{
+    height: 300px;
+    width: 300px;
+}
+
+.intropt2{
+    margin-left: 10%;
+    width: 80%;
+    text-align:center ;
+    font-size:65px;
+    margin-top: 70px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color:15px solid rgb(250, 250, 250);
+    box-shadow:0 0 10px 5px rgba(0,0,0,0.1) ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
 .feacher{
     width: 100%;
     height: 70px;
@@ -20,15 +41,23 @@ body{font-family: Arial, Helvetica, sans-serif;}
     margin-top: 15px;
 }
 
-.course{
+.Name{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     border-bottom: 5px solid rgb(209, 173, 56);
     text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 33.5px;
 }
 
 .food{
+    text-decoration: none;
     height:500px;
     width: 500px;
     list-style-type: none;
@@ -37,6 +66,8 @@ body{font-family: Arial, Helvetica, sans-serif;}
     flex-wrap: wrap;
     align-content:center ;
     box-shadow:0 0 10px 5px rgba(0,0,0,0.1) ;
+    border: 10px solid white;
+    border-radius: 10px;
 }
 
 .hold{
@@ -49,8 +80,8 @@ body{font-family: Arial, Helvetica, sans-serif;}
 .foodhold{
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -63,6 +94,7 @@ body{font-family: Arial, Helvetica, sans-serif;}
 .foodname{
     text-align: center;
     margin-bottom: 5px;
+    color:black;
 }
 
 .price{
